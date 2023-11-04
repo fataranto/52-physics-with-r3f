@@ -20,8 +20,8 @@ export default function Experience()
             </mesh>
             </RigidBody>
 
-            <RigidBody colliders="ball">
-                <mesh castShadow position={ [ 3, 5, 0 ] }>
+            <RigidBody>
+                <mesh castShadow position={ [ 3, 5, 0 ] } rotation={ [ Math.PI * 0.1, 0, 0] }>
                     <torusGeometry />
                     <meshStandardMaterial color="mediumpurple" />
                 </mesh>
